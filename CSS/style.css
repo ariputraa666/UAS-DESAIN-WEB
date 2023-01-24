@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body { background-color: antiquewhite;}
+.navlogo{
+    padding-left: 30px;
+    width: 35%;
+}
+.navtitle{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:20px;
+}
+.nav-link a:hover{
+    background-color: black;
+}
+.spasi{
+    padding:50px 0px 10px;
+
+}
+.slide{
+    width: 100%;
+}
+.about{
+    padding-top: 10px;
+    background-color:#ccc;
+}
+.aboutdesc{
+    font-size: 1rem;
+    color: black;
+    padding: 1rem 3rem;
+    line-height: 1.8;  
+    text-align: center;  
+}
+.imgabout{
+    padding: 10px;
+    width: 100%;
+    height:75%;
+}
+.counting{
+    width: 100%;
+    padding: 2rem 5%;
+    margin: 1rem 0;
+    min-height: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../img/hehe.png");
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../img/hehe.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.counting .box{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 25rem;
+        flex: 1 1 25rem;
+    text-align: center;
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+.counting .box .count{
+    color: white;
+    font-size: 5rem;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+.counting .box i{
+    color: white;
+    font-size: 6rem;
+    width: 6rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.footer{
+    background-color:#ccc;
+    padding: 2rem 5%;
+    color:#ccc;
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+}
+.footer a:hover{
+    color:white;
+}
+.jdsub{
+    text-align: center;
+    text-shadow: 1px 1px #ccc;
+}
+.jdProduct{
+    width: 15rem;margin :19px; float: left;
+}
+.img-Product{
+    height: 230px;
+    overflow: hidden;
+}
+.img-Product img{
+    transition: transform.5s ease;
+}
+.img-menu:hover img{
+    transform: scale(1.5);
+}
